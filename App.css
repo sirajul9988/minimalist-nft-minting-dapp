@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #0d1117;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid #30363d;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #161b22;
+}
+
+.connect-btn, .mint-btn {
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.connect-btn:hover, .mint-btn:hover {
+  background-color: #2ea043;
+}
